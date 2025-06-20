@@ -31,7 +31,7 @@ class Solution:
         k = 0
 
         for i in range(n):
-            if nums[i] != nums[k-1]:
+            if k == 0 or nums[i] != nums[k-1]:
                 nums[k] = nums[i]
                 k += 1
         return k
