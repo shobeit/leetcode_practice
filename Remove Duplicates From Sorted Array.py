@@ -10,18 +10,7 @@
 # To be accepted, the first k elements of nums must contain all the unique elements.
 # Return k as the final result.
 
-# Example 1:
-
-# Input: nums = [1,1,2,3,4]
-
-# Output: [1,2,3,4]
-# Explanation: You should return k = 4 as we have four unique elements.
-
-# Example 2:
-
-# Input: nums = [2,10,10,30,30,30]
-
-# Output: [2,10,30] -->
+# 6/21/2025
 from typing import List
 
 class Solution:
