@@ -39,3 +39,19 @@ def main() -> None:
 
     print()
 
+    if len(run_cases) != 5:
+        print("============= FAIL ==============")
+        print("There should be five test cases!")
+    elif failed != 1:
+        print("============= FAIL ==============")
+        print("There should be one failing test!")
+    elif exceptions[0] != 1:
+        print("============= FAIL ==============")
+        print("One ZeroDivisionError should have been caught!")
+    else:
+        print("============= PASS ==============")
+
+    print(f"{passed} tests passed; {failed} failed (1 expected)")
+
+
+main()
